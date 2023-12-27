@@ -1,0 +1,18 @@
+        <!-- Include jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+        <!-- Include DataTables JavaScript -->
+        <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+
+        <script>
+        $(document).ready(function() {
+            $("#userTable").DataTable({
+                "paging": true,
+                "lengthMenu": [5, 10, 25, 50],
+                "searching": true,
+                "ordering": true
+            });
+        });
+        </script>
+    </body>
+</html>
